@@ -1,28 +1,39 @@
 * [Home](/)
 
 - Pendahuluan
-    - [Objektif Playbook](introduction/purpose_id.md)
+    - [Objektif Playbook](introduction/purpose.md)
     - Audiens
     - Ruang Lingkup
     - Prinsip Utama
 
 - Peran dan Tanggung Jawab
-    - Data Product Owner
-    - Data Engineer/Domain Team
-    - Platform Team
-    - Governance Team
+    - [Overview](roles-responsibility/overview.md) 
+    - Data Product Owner (Head of Data)
+    - Data Engineering Manager (per tribe)
+    - Data Analytics Manager (per tribe)
+    - Data Engineer Team
+    - Data Analytics Team
+    - Platform Team (Infras/DataOps)
+    
 
 - Establishing Domain
-    - Identifikasi Domain
-    - Onboarding
-    - Kolaborasi antar-domain
+    - [Identifikasi Domain](establishing-domains/identifying-domain.md)
+    - [Onboarding](establishing-domains/onboarding.md)
+    - [Kolaborasi antar-domain](establishing-domains/collaboration.md)
 
 - Manajemen Siklus Hidup Data Product
-    - Pre-Development
-    - Bootstrap
-    - Development
-    - Monitoring and Evaluation
-    - End-of-Service Life
+    - [Bootstrap](data-product-lifecycle/bootstrap.md) 
+    - [Pre-Development](data-product-lifecycle/predevelopment.md)
+    - [Design](data-product-lifecycle/design.md)
+    - [Development](data-product-lifecycle/development.md)
+    - [Delivery](data-product-lifecycle/delivery.md)
+    - [Monitoring and Evaluation](data-product-lifecycle/monitoring-and-evaluation.md)
+    - End of Service Life (EOSL) Phase 
+
+- Manajement Proyek
+    - [Data Product di dalam Tribe](project-management/data-product-in-tribe.md)
+    - [Pemilihan Tim](project-management/team-assignment.md)
+    - [Service Level Agreement](project-management/sla.md)
 
 - Infrastruktur Data
     - Self-Serve Infrastructure
@@ -47,6 +58,9 @@
 - Studi Kasus
     - Successful Implementation
     - Lessons Learned
+
+- [Berkontribusi menyusun Playbook](contribute/howto.md)
+    - [Code of Conduct](contribute/code-of-conduct.md)
 
 - Lampiran
     - Templates
